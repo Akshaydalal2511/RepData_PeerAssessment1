@@ -87,11 +87,11 @@ with(intervalMeanSteps,plot(steps~interval,xlab = "Interval",
 ### Interval at which maximum steps were recorded
 
 ```r
-activityData$interval[which.max(activityData$steps)]
+activityData$interval[which.max(intervalMeanSteps$steps)]
 ```
 
 ```
-## [1] 615
+## [1] 835
 ```
 
 ## Imputing missing values
